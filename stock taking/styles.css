@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+}
+form {
+    margin-bottom: 20px;
+}
+label {
+    display: inline-block;
+    width: 100px;
+}
+input[type="text"], input[type="number"], select {
+    padding: 10px;
+    margin: 5px 0;
+    width: 220px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+/* Tombol tambah produk */
+button {
+    background-color: #28a745; /* Warna hijau */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Efek hover untuk tombol */
+button:hover {
+    background-color: #218838; /* Warna hijau lebih gelap saat di-hover */
+}
+
+/* Efek bayangan saat tombol ditekan */
+button:active {
+    background-color: #1e7e34;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    transform: translateY(2px);
+}
+/* Gaya untuk footer */
+footer {
+    background-color: #333; /* Warna latar belakang */
+    color: white; /* Warna teks */
+    padding: 20px 0; /* Padding atas dan bawah */
+    text-align: center; /* Teks rata tengah */
+    position: relative; /* Posisi relatif */
+    bottom: 0;
+    width: 100%; /* Lebar penuh halaman */
+    border-top: 2px solid #555; /* Garis di atas footer */
+}
+
+footer a {
+    color: #ffcc00; /* Warna link */
+    text-decoration: none; /* Menghapus garis bawah link */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Garis bawah link saat di-hover */
+}

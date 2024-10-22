@@ -1,1 +1,1 @@
-stoct taking product berikut nama product, jumlah product serta harga product yang terkoneksi dengan database 
+call me wihartoko4@gmail.com 
